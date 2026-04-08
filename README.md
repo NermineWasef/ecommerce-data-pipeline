@@ -1,7 +1,11 @@
 # E-Commerce Data Pipeline
 
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-green)
+![SQL](https://img.shields.io/badge/SQL-SQLite-orange)
+
 ## Overview
-This project implements an end-to-end data engineering pipeline for processing and analyzing e-commerce transactional data.
+An end-to-end ETL pipeline for cleaning, transforming, and analyzing e-commerce transactional data.
 
 The pipeline ingests raw sales data, performs data cleaning and validation, transforms it into an analysis-ready format, and loads it into a relational database for downstream querying.
 
@@ -60,6 +64,15 @@ This project addresses these challenges by building a structured ETL pipeline.
 - Top 5 countries by revenue identified  
 - Best-selling products analyzed  
 - Monthly revenue trends visualized  
+<<<<<<< HEAD
+=======
+
+---
+
+## Visualization
+
+![Monthly Revenue](outputs/monthly_revenue.png)
+>>>>>>> 43f6f64 (Add visualization and improve README)
 
 ---
 
@@ -67,4 +80,8 @@ This project addresses these challenges by building a structured ETL pipeline.
 ```bash
 python scripts/extract_transform.py
 python scripts/load_to_sql.py
+<<<<<<< HEAD
 python scripts/run_queries.py
+=======
+python scripts/run_queries.py
+>>>>>>> 43f6f64 (Add visualization and improve README)
